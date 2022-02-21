@@ -1,0 +1,57 @@
+body
+{
+   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: url(sky.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+    
+
+
+}
+.Sign-up{
+    width : 300px;
+    box-shadow: 0 0 3px 0 rgba(0.3, 0, 0, 0.3);
+    background-color:cornsilk;
+    padding: 20px;
+    margin: 8% auto;
+    
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.Sign-up h1{
+
+    color:black;
+    margin: bottom 30px; ;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(40, 105, 131);
+    outline:none;
+}
+
+button{
+    color:rgb(201, 31, 88);
+    width:25%;
+    padding: 10px;
+    border-radius:20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border:none;
+    outline: none;
+    cursor:pointer;
+}
+button:hover{
+    background: rgb(34, 221, 34);
+    transition:0.5s;
+
+ }
+ a{
+     text-decoration: none;
+ }
+
+
+

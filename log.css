@@ -1,0 +1,79 @@
+ *{
+     padding :0;
+     margin:0;
+     font-family: 'Courier New', Courier, monospace;
+ }
+ body{
+     background: url(sky.jpg);
+     background-size: 100% 100%;  
+
+ }
+ .loginform{
+     width:350px;
+     top:50%;
+     left:50%;
+     transform:translate(-50%,-50%);
+     color:rgb(233, 233, 250);
+     position: absolute;
+     height: 450px;
+     background-color:transparent;
+     border-radius:5px;
+     border: 1px solid seashell;
+     padding-left:20px;
+     padding-right:20px;
+     padding-top:50px;
+
+ }
+ .loginform h1{
+     float:left;
+     font-size :40px;
+     border-bottom:6px solid green;
+     margin-bottom:50px;
+     padding :13px;
+ }
+ .textbox{
+     width:100%;
+     overflow:hidden;
+     font-size:20px;
+     padding:8px 0;
+     margin:35px 0;
+     
+     background: rgb(253, 253, 253);
+     border-bottom:1px solid green;
+     border-radius: 10px;
+     height:30px
+ }
+ ::placeholder{
+     color:rgb(41, 48, 41);
+ }
+ 
+  input{
+     border:none;
+     outline: none;
+     background: none;
+     color:rgb(31, 29, 29);
+     width:80%;
+     float:left;
+     margin: 10px 10px;
+     font-size:18px;
+ }
+ button{
+    margin-top:50px;
+    margin-left:80px;
+    margin-right:30px;
+     width:50%;
+     height:40px;
+     background: white;
+     border: 2px solid rgb(26, 226, 26);
+     color:rgb(36, 34, 34);
+     padding: 5px;
+     border-radius:5px;
+     cursor:pointer;
+     
+     
+ }
+ button:hover{
+    background: rgb(34, 221, 34);
+    transition:0.5s;
+
+ }
